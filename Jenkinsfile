@@ -6,6 +6,7 @@ pipeline {
         stage('Print_Hello_World') {
             steps {
                 echo 'Hello world!'
+                echo 'Poll Test successfull!'
             }
         }
     }
