@@ -1,7 +1,7 @@
 pipeline {
-    agent any 
+    agent windows 
     stages {
-        stage('Stage 1') {
+        stage('Print_Hello_World') {
             steps {
                 echo 'Hello world!' 
             }
