@@ -1,9 +1,11 @@
 pipeline {
-    agent { windows } 
+    agent {
+        node { label 'windows' }
+    }
     stages {
         stage('Print_Hello_World') {
             steps {
-                echo 'Hello world!' 
+                echo 'Hello world!'
             }
         }
     }
